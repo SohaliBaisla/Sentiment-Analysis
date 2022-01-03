@@ -1,0 +1,52 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<div class="homebg">
+    <div class="home">
+        <header class="page-header header container-fluid">
+            <div class="overlay"></div>
+            <div class="description">
+                <h1><i>
+                        <center>We Care</center>
+                    </i></h1>
+                
+                    
+                        <div class="Iam">
+
+                            <p>Let the worry fly,</p>
+                            <b>
+                              <div class="innerIam">
+                                and<br /> 
+                                serenity pave in!
+                                </div>
+                            </b>
+                            
+                            </div>
+                        
+                <br /><br /><br /><br /><br /><br /><br />
+                <center>
+                    <button class="btn btn-outline-secondary btn-lg"><a href="{{url_for('mediate')}}">Meditate</button></a>
+                    <button class="btn btn-outline-secondary btn-lg"><a href="{{url_for('tweet_analysis')}}">Analyse Emotion</button></a>
+                </center>
+                <a href="#mt" class="scroll"><span class="da-img"> </span> </a>
+            </div>
+        </header>
+    </div>
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12" style="color: white;">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>Sage Stage is a static website (still under development) and is made as a project for now. We plan
+                    to make it functional and deploy it soon.</p>
+                <p>This website is being maintatined by Kashika, Samya, Sohali and Shrujal and is presently open-source.
+                    Click <a href="https://github.com/samya02/Sentiment-Analysis">here</a> to see the github
+                    repository.</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+{%endblock%}
